@@ -1,0 +1,6 @@
+\\homeserver\userfolders\john\Visual Studio 2008\Projects\websiteengineer\websiteengineer\bin\Release\websiteengineer.dll.config
+\\homeserver\userfolders\john\Visual Studio 2008\Projects\websiteengineer\websiteengineer\bin\Release\websiteengineer.dll
+\\homeserver\userfolders\john\Visual Studio 2008\Projects\websiteengineer\websiteengineer\bin\Release\websiteengineer.pdb
+\\homeserver\userfolders\john\Visual Studio 2008\Projects\websiteengineer\websiteengineer\obj\Release\ResolveAssemblyReference.cache
+\\homeserver\userfolders\john\Visual Studio 2008\Projects\websiteengineer\websiteengineer\obj\Release\websiteengineer.dll
+\\homeserver\userfolders\john\Visual Studio 2008\Projects\websiteengineer\websiteengineer\obj\Release\websiteengineer.pdb
