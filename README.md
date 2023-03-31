@@ -1,2 +1,2 @@
 # websiteEngineer
-a lightweight CMS for websites, focused on SEO
+A lightweight CMS for websites, focused on SEO
