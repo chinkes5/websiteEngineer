@@ -65,7 +65,7 @@ public class FixURLs : IHttpModule
                 //now what?
             }
 
-            //SEO Style- redirect to cannonical URL if not there
+            //SEO Style- redirect to canonical URL if not there
             string hostString = app.Request.Url.Host.ToLower();
             //better to test if exact match...
             if (hostString != CorrectHost)

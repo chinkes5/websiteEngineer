@@ -177,7 +177,7 @@ namespace webSiteEngineer
                 //now the article
                 ArticleManagement newArt = new ArticleManagement();
                 newArt.Article_Description = "Home page for " + this.Site_Name;
-                newArt.Article_Text = "Home page for " + this.Site_Name + "&lt;br /&gt; Under contruction... &lt;br /&gt; Please add pages to this site.";
+                newArt.Article_Text = "Home page for " + this.Site_Name + "&lt;br /&gt; Under construction... &lt;br /&gt; Please add pages to this site.";
                 newArt.Article_Title = "Home Page";
                 newArt.Author = newPage.User.Identity.Name;
                 newArt.Create_By = this.Create_By;
@@ -250,7 +250,7 @@ namespace webSiteEngineer
                 }
                 return false;
             }
-            throw new Exception("insufficent permissions to perform this action");
+            throw new Exception("insufficient permissions to perform this action");
         }
         /// <summary>
         /// returns a list of sites in the database
@@ -302,10 +302,10 @@ namespace webSiteEngineer
                 }
                 return returnSiteList;
             }
-            throw new Exception("insufficent permissions to perform this action");
+            throw new Exception("insufficient permissions to perform this action");
         }
         /// <summary>
-        /// retreives a site from the database with the current site ID
+        /// retrieves a site from the database with the current site ID
         /// </summary>
         /// <returns>the complete site</returns>
         public Site GetSiteByID()
@@ -350,7 +350,7 @@ namespace webSiteEngineer
                 }
                 return this;
             }
-            throw new Exception("insufficent permissions to perform this action");
+            throw new Exception("insufficient permissions to perform this action");
         }
         #endregion
     }

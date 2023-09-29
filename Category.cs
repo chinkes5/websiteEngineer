@@ -93,7 +93,7 @@ namespace webSiteEngineer
             {
                 if (!string.IsNullOrEmpty(value))
                     _Cat_URL = utility.safeURL(value, false);
-                //for URL simplicty and safety
+                //for URL simplicity and safety
             }
         }
         public bool Secure
@@ -118,7 +118,7 @@ namespace webSiteEngineer
         }
 
         /// <summary>
-        /// used to set heirarchy of categories (beyond sort value)
+        /// used to set hierarchy of categories (beyond sort value)
         /// </summary>
         public int id_Parent
         {
@@ -274,7 +274,7 @@ namespace webSiteEngineer
                 }
                 return this;
             }
-            throw new Exception("insufficent permissions to perform this action");
+            throw new Exception("insufficient permissions to perform this action");
 
         }
 
@@ -356,7 +356,7 @@ namespace webSiteEngineer
                 }
                 return returnCategoryList;
             }
-            throw new Exception("insufficent permissions to perform this action");
+            throw new Exception("insufficient permissions to perform this action");
         }
 
 

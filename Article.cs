@@ -31,7 +31,7 @@ namespace webSiteEngineer
             set { _id_Articles = value; }
         }
         /// <summary>
-        /// used for page title, trimed to 70 char because of suggestions from http://SEOMOZ.org/ for better SEO compliance
+        /// used for page title, trimmed to 70 char because of suggestions from http://SEOMOZ.org/ for better SEO compliance
         /// </summary>
         public string Article_Title
         {
@@ -55,7 +55,7 @@ namespace webSiteEngineer
             set { _Article_Text = utility.safeHTML(value, true); }
         }
         /// <summary>
-        /// used for meta data on page, trimed to 155 char because of suggestions from http://SEOMOZ.org/ for better SEO compliance
+        /// used for meta data on page, trimmed to 155 char because of suggestions from http://SEOMOZ.org/ for better SEO compliance
         /// </summary>
         public string Article_Page_Description
         {
@@ -63,7 +63,7 @@ namespace webSiteEngineer
             set { _Article_Page_Description = utility.safeHTML(value, true, 155); }
         }
         /// <summary>
-        /// used for meta data on page, trimed to 155 char because of suggestions from http://SEOMOZ.org/ for better SEO compliance
+        /// used for meta data on page, trimmed to 155 char because of suggestions from http://SEOMOZ.org/ for better SEO compliance
         /// </summary>
         public string Article_Page_Keywords
         {
@@ -251,7 +251,7 @@ namespace webSiteEngineer
                 }
                 return this;
             }
-            throw new Exception("insufficent permissions to perform this action");
+            throw new Exception("insufficient permissions to perform this action");
         }
 
         /// <summary>
@@ -322,7 +322,7 @@ namespace webSiteEngineer
                 }
                 return returnArticleList;
             }
-            throw new Exception("insufficent permissions to perform this action");
+            throw new Exception("insufficient permissions to perform this action");
         }
 
         /// <summary>
@@ -405,7 +405,7 @@ namespace webSiteEngineer
                 }
                 return returnArticleList;
             }
-            throw new Exception("insufficent permissions to perform this action");
+            throw new Exception("insufficient permissions to perform this action");
         }
 
         /// <summary>

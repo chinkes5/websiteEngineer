@@ -44,7 +44,7 @@ namespace webSiteEngineer
             }
             catch (SmtpException Smtp_ex)
             {
-                //error in emailling
+                //error in emailing
                 throw new SystemException("There was an SMTP issue sending your message", Smtp_ex);
             }
             catch (Exception ex)
@@ -142,7 +142,7 @@ namespace webSiteEngineer
             }
             else
             {
-                //outbout from the DB
+                //outbound from the DB
                 _returnValue = HttpUtility.HtmlDecode(_HTMLstring);
             }
             return _returnValue;
@@ -168,7 +168,7 @@ namespace webSiteEngineer
                 }
                 else
                 {
-                    //outbout from the DB
+                    //outbound from the DB
                     _tempValue = HttpUtility.HtmlDecode(_HTMLstring);
                 }
 
@@ -212,7 +212,7 @@ namespace webSiteEngineer
         }
 
         /// <summary>
-        /// function to return a URL with escaped charaters
+        /// function to return a URL with escaped characters
         /// </summary>
         /// <param name="_URLstring">URL to encode</param>
         /// <param name="_decode">true to encode, false to decode</param>
@@ -229,7 +229,7 @@ namespace webSiteEngineer
             }
             else
             {
-                //outbout from the DB
+                //outbound from the DB
                 _returnValue = HttpUtility.UrlDecode(_URLstring);
             }
             return _returnValue;
